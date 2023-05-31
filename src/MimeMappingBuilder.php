@@ -75,9 +75,9 @@ class MimeMappingBuilder
 	 *
 	 * @return int|bool The number of bytes that were written to the file, or false on failure.
 	 */
-	public function save($file, $flags = null, $context = null)
+	public function save($file)
 	{
-		return file_put_contents($file, $this->compile(), $flags, $context);
+		return file_put_contents($file, $this->compile());
 	}
 
 	/**

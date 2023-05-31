@@ -10,7 +10,12 @@ class MimeTypesTest extends TestCase
 	/** @var \Mimey\MimeTypes */
 	protected $mime;
 
-	protected function setUp()
+	/**
+	 * Set up test case.
+	 *
+	 * @return void
+	 */
+	protected function setUp(): void
 	{
 		$this->mime = new MimeTypes([
 			'mimes' => [
