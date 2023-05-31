@@ -102,5 +102,8 @@ $mimes = new \Mimey\MimeTypes($builder->getMapping());
 Compatible with PHP >= 5.4.
 
 ```
-composer require ralouphie/mimey
+composer require peterhebert/mimey
 ```
+## Changelog
+
+2.1.1 - forked and updated to work with PHP 8.
